@@ -25,10 +25,10 @@ const Projects = () => {
 
     return (
         <div id='projects' className='py-10 px-2'>
-            <h1 className='text-4xl text-[#333333] font-bold text-center my-10'>Projects</h1>
+            <h1 className='text-4xl text-black font-bold text-center my-10'>Projects</h1>
             <div className='md:flex justify-around'>
                 <div data-aos="fade-up-right">
-                    <div className="card w-full md:h-[450px] bg-[##D1E8FF] shadow-xl">
+                    <div className="card w-full md:h-[450px] bg-[#333333] shadow-xl">
                         <figure className="px-2 pt-2">
                             <img src={tuneCrift} alt="Shoes" className="h-[300px] rounded-xl" />
                         </figure>
@@ -43,7 +43,7 @@ const Projects = () => {
                     {/* Open the modal using ID.showModal() method */}
 
                     <dialog id="my_modal_2" className="modal">
-                        <form method="dialog" className="modal-box bg-[##D1E8FF] max-w-3xl w-11/12">
+                        <form method="dialog" className="modal-box bg-[#333333] max-w-3xl w-11/12">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                             <h3 className="font-bold text-lg ">Tune craft</h3>
                             <div className='md:flex'>
@@ -53,17 +53,17 @@ const Projects = () => {
                                     </div>
                                     <div className='space-x-2 py-2'>
                                         <a href="https://github.com/ptan01/Tune-craft-client" target='_blank'>
-                                            <div className="btn btn-sm hover:bg-[##D1E8FF] bg-[#333333]">
+                                            <div className="btn btn-sm hover:bg-[#333333] bg-[#333333]">
                                                 client<BsBoxArrowUpRight></BsBoxArrowUpRight>
                                             </div>
                                         </a>
                                         <a href="https://github.com/ptan01/Tune-craft-server" target='_blank'>
-                                            <div className="btn btn-sm hover:bg-[##D1E8FF] bg-[#333333]">
+                                            <div className="btn btn-sm hover:bg-[#333333] bg-[#333333]">
                                                 server<BsBoxArrowUpRight></BsBoxArrowUpRight>
                                             </div>
                                         </a>
                                         <a href="https://tune-craft.web.app/" target='_blank'>
-                                            <div className="btn btn-sm hover:bg-[##D1E8FF] bg-[#333333]">
+                                            <div className="btn btn-sm hover:bg-[#333333] bg-[#333333]">
                                                 live link <BsBoxArrowUpRight></BsBoxArrowUpRight>
                                             </div>
                                         </a>
@@ -87,7 +87,7 @@ const Projects = () => {
                 </div>
                 {/* 2nd project */}
                 <div data-aos="fade-up">
-                    <div className="card w-full md:h-[450px] bg-[##D1E8FF] shadow-xl">
+                    <div className="card w-full md:h-[450px] bg-[#333333] shadow-xl">
                         <figure className="px-2 pt-2">
                             <img src={speedyWheels} alt="Shoes" className="h-[300px] rounded-xl" />
                         </figure>
@@ -102,7 +102,7 @@ const Projects = () => {
                     {/* Open the modal using ID.showModal() method */}
 
                     <dialog id="my_modal_3" className="modal">
-                        <form method="dialog" className="modal-box bg-[##D1E8FF] max-w-3xl w-11/12">
+                        <form method="dialog" className="modal-box bg-[#333333] max-w-3xl w-11/12">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                             <h3 className="font-bold text-lg ">Speedy Wheels</h3>
                             <div className='md:flex'>
@@ -112,17 +112,17 @@ const Projects = () => {
                                     </div>
                                     <div className='space-x-2 py-2'>
                                         <a href="https://github.com/ptan01/speedy-wheels-client" target='_blank'>
-                                            <div className="btn btn-sm hover:bg-[##D1E8FF] bg-[#333333]">
+                                            <div className="btn btn-sm hover:bg-[#333333] bg-[#333333]">
                                                 client<BsBoxArrowUpRight></BsBoxArrowUpRight>
                                             </div>
                                         </a>
                                         <a href="https://github.com/ptan01/speedy-wheels-server" target='_blank'>
-                                            <div className="btn btn-sm hover:bg-[##D1E8FF] bg-[#333333]">
+                                            <div className="btn btn-sm hover:bg-[#333333] bg-[#333333]">
                                                 server<BsBoxArrowUpRight></BsBoxArrowUpRight>
                                             </div>
                                         </a>
                                         <a href="https://speedy-wheels-50772.web.app/" target='_blank'>
-                                            <div className="btn btn-sm hover:bg-[##D1E8FF] bg-[#333333]">
+                                            <div className="btn btn-sm hover:bg-[#333333] bg-[#333333]">
                                                 live link <BsBoxArrowUpRight></BsBoxArrowUpRight>
                                             </div>
                                         </a>
@@ -147,7 +147,7 @@ const Projects = () => {
                 </div>
                 {/* 3rd project */}
                 <div data-aos="fade-up-left">
-                    <div className="card w-full md:h-[450px] bg-[##D1E8FF] shadow-xl">
+                    <div className="card w-full md:h-[450px] bg-[#333333] shadow-xl">
                         <figure className="px-2 pt-2">
                             <img src={kitchenMaster} alt="Shoes" className="h-[300px] rounded-xl" />
                         </figure>
@@ -162,7 +162,7 @@ const Projects = () => {
                     {/* Open the modal using ID.showModal() method */}
 
                     <dialog id="my_modal_4" className="modal">
-                        <form method="dialog" className="modal-box bg-[##D1E8FF] max-w-3xl w-11/12">
+                        <form method="dialog" className="modal-box bg-[#333333] max-w-3xl w-11/12">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                             <h3 className="font-bold text-lg ">Kitchen Master</h3>
                             <div className='md:flex'>
@@ -172,17 +172,17 @@ const Projects = () => {
                                     </div>
                                     <div className='space-x-2 py-2'>
                                         <a href="https://github.com/ptan01/Tune-craft-client" target='_blank'>
-                                            <div className="btn btn-sm hover:bg-[##D1E8FF] bg-[#333333]">
+                                            <div className="btn btn-sm hover:bg-[#333333] bg-[#333333]">
                                                 client<BsBoxArrowUpRight></BsBoxArrowUpRight>
                                             </div>
                                         </a>
                                         <a href="https://github.com/ptan01/Tune-craft-server" target='_blank'>
-                                            <div className="btn btn-sm hover:bg-[##D1E8FF] bg-[#333333]">
+                                            <div className="btn btn-sm hover:bg-[#333333] bg-[#333333]">
                                                 server<BsBoxArrowUpRight></BsBoxArrowUpRight>
                                             </div>
                                         </a>
                                         <a href="https://tune-craft.web.app/" target='_blank'>
-                                            <div className="btn btn-sm hover:bg-[##D1E8FF] bg-[#333333]">
+                                            <div className="btn btn-sm hover:bg-[#333333] bg-[#333333]">
                                                 live link <BsBoxArrowUpRight></BsBoxArrowUpRight>
                                             </div>
                                         </a>

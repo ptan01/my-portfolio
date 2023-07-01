@@ -6,7 +6,7 @@ import { RiJavascriptFill } from 'react-icons/ri';
 const Skills = () => {
     return (
         <div className='md:flex px-2 justify-center items-center'>
-            <h2 className='text-4xl'>Tech Stack</h2>
+            <h2 className='text-4xl text-black'>Tech Stack</h2>
             <div className='flex gap-5 flex-wrap'>
                 <div className="avatar placeholder">
                     <div className=" shadow-2xl text-neutral-content rounded-full w-16">
