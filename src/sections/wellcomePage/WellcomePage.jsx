@@ -8,8 +8,8 @@ const WellcomePage = () => {
     return (
         <div id='WellcomePage' className='text-gray-300 py-10 px-2'>
             <div className='md:flex items-center justify-between'>
-                <div className='space-y-5'>
-                    <h1 className='text-3xl font-bold text-[black]'>Hi 👋 I'm Tanjim Islam, I am a <span className=''>
+                <div className='space-y-5 md:w-1/2'>
+                    <h1 className='text-4xl font-bold text-[black]'>Hi 👋 I'm Tanjim Islam, I am a <span className=''>
                         <Typewriter
                             words={['Frontend Developer', 'MERN Stack Developer', 'Web Developer']}
                             loop={true}
@@ -51,7 +51,7 @@ const WellcomePage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="avatar">
+                <div className="avatar md:w-1/2">
                     <div className="w-full mask mask-squircle">
                         <img src={img} />
                     </div>

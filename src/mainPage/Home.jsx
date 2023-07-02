@@ -9,7 +9,7 @@ import Footer from '../sections/footer/Footer';
 
 const Home = () => {
     return (
-        <div className=' bg-gradient-to-r from-[#D1E8FF] to-[#333333]'>
+        <div className=' bg-gradient-to-r from-[#00acee] to-[#FFFFFF]'>
             <div className='max-w-7xl mx-auto '>
                 <WellcomePage></WellcomePage>
                 <About></About>

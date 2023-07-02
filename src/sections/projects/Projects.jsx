@@ -28,13 +28,13 @@ const Projects = () => {
             <h1 className='text-4xl text-black font-bold text-center my-10'>Projects</h1>
             <div className='md:flex justify-around'>
                 <div data-aos="fade-up-right">
-                    <div className="card w-full md:h-[450px] bg-[#333333] shadow-xl">
+                    <div className="card w-full md:h-[450px] bg-[#00acee] shadow-xl">
                         <figure className="px-2 pt-2">
                             <img src={tuneCrift} alt="Shoes" className="h-[300px] rounded-xl" />
                         </figure>
                         <div className="card-body p-2">
-                            <h2 className="card-title text-3xl">Tune Craft</h2>
-                            <p>Tune Craft is a Full Stack music instrument learning site</p>
+                            <h2 className="card-title text-black text-3xl">Tune Craft</h2>
+                            <p className='text-black'>Tune Craft is a Full Stack music instrument learning site</p>
                             <div className="flex flex-wrap justify-end">
                                 <button className="px-5" onClick={() => window.my_modal_2.showModal()}><BsArrowUpRightSquareFill className='text-4xl text-[#333333]'></BsArrowUpRightSquareFill></button>
                             </div>
@@ -43,7 +43,7 @@ const Projects = () => {
                     {/* Open the modal using ID.showModal() method */}
 
                     <dialog id="my_modal_2" className="modal">
-                        <form method="dialog" className="modal-box bg-[#333333] max-w-3xl w-11/12">
+                        <form method="dialog" className="modal-box bg-[#00acee] text-black max-w-3xl w-11/12">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                             <h3 className="font-bold text-lg ">Tune craft</h3>
                             <div className='md:flex'>
@@ -87,13 +87,13 @@ const Projects = () => {
                 </div>
                 {/* 2nd project */}
                 <div data-aos="fade-up">
-                    <div className="card w-full md:h-[450px] bg-[#333333] shadow-xl">
+                    <div className="card w-full md:h-[450px] bg-[#00acee] shadow-xl">
                         <figure className="px-2 pt-2">
                             <img src={speedyWheels} alt="Shoes" className="h-[300px] rounded-xl" />
                         </figure>
                         <div className="card-body p-2">
-                            <h2 className="card-title text-3xl">Speedy Wheels</h2>
-                            <p>Speedy Wheels is a Toys Market Place Website</p>
+                            <h2 className="card-title text-black text-3xl">Speedy Wheels</h2>
+                            <p className='text-black'>Speedy Wheels is a Toys Market Place Website</p>
                             <div className="flex flex-wrap justify-end">
                                 <button className="px-5" onClick={() => window.my_modal_3.showModal()}><BsArrowUpRightSquareFill className='text-4xl text-[#333333]'></BsArrowUpRightSquareFill></button>
                             </div>
@@ -102,7 +102,7 @@ const Projects = () => {
                     {/* Open the modal using ID.showModal() method */}
 
                     <dialog id="my_modal_3" className="modal">
-                        <form method="dialog" className="modal-box bg-[#333333] max-w-3xl w-11/12">
+                        <form method="dialog" className="modal-box bg-[#00acee] max-w-3xl w-11/12">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                             <h3 className="font-bold text-lg ">Speedy Wheels</h3>
                             <div className='md:flex'>
@@ -128,7 +128,7 @@ const Projects = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <div className='md:w-1/2'>
+                                <div className='md:w-1/2 text-black'>
                                     <ol style={{ listStyleType: 'circle', marginLeft: '20px' }}>
                                         <li>The website is like Admin related , A user can create account with there email password or
                                             Google account</li>
@@ -147,13 +147,13 @@ const Projects = () => {
                 </div>
                 {/* 3rd project */}
                 <div data-aos="fade-up-left">
-                    <div className="card w-full md:h-[450px] bg-[#333333] shadow-xl">
+                    <div className="card w-full md:h-[450px] bg-[#00acee] shadow-xl">
                         <figure className="px-2 pt-2">
                             <img src={kitchenMaster} alt="Shoes" className="h-[300px] rounded-xl" />
                         </figure>
                         <div className="card-body p-2">
-                            <h2 className="card-title text-3xl">Kitchen Master</h2>
-                            <p>Kitchen Master is a chef and recipe related website</p>
+                            <h2 className="card-title text-black text-3xl">Kitchen Master</h2>
+                            <p className='text-black'>Kitchen Master is a chef and recipe related website</p>
                             <div className="flex flex-wrap justify-end">
                                 <button className="px-5" onClick={() => window.my_modal_4.showModal()}><BsArrowUpRightSquareFill className='text-4xl text-[#333333]'></BsArrowUpRightSquareFill></button>
                             </div>
@@ -162,7 +162,7 @@ const Projects = () => {
                     {/* Open the modal using ID.showModal() method */}
 
                     <dialog id="my_modal_4" className="modal">
-                        <form method="dialog" className="modal-box bg-[#333333] max-w-3xl w-11/12">
+                        <form method="dialog" className="modal-box bg-[#00acee] max-w-3xl w-11/12">
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                             <h3 className="font-bold text-lg ">Kitchen Master</h3>
                             <div className='md:flex'>
@@ -188,7 +188,7 @@ const Projects = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <div className='md:w-1/2'>
+                                <div className='md:w-1/2 text-black'>
                                     <ol style={{ listStyleType: 'circle', marginLeft: '20px' }}>
                                         <li>The website create with react application and the website have some awesome react feature
                                             like user can view single recipe</li>
