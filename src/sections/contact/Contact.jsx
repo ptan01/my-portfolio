@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Lottie from "lottie-react";
 import groovyWalkAnimation from "../../assets/110986-contact-us.json";
 import emailjs from '@emailjs/browser';
+import { AwesomeButton } from 'react-awesome-button';
 
 
 const Contact = () => {
@@ -49,7 +50,7 @@ const Contact = () => {
                             <textarea className="input bg-inherit w-full max-w-xl h-[100px] border-b-2 border-0 border-b-[#333333]" name='message' placeholder="Your Message"></textarea>
                         </div>
                         <div>
-                            <input type="submit" className='btn btn-sm w-[100px] my-3 bg-[#333333] hover:bg-[##D1E8FF]' value="Send" />
+                            <AwesomeButton><input type="submit" value="Send" /></AwesomeButton>
                         </div>
                     </form>
                 </div>

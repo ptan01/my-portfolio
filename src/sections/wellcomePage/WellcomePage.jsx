@@ -1,9 +1,9 @@
 import React from 'react';
 import img from '../../assets/rsz_img_1669996569610[1].jpg'
 import { Typewriter } from 'react-simple-typewriter';
-import {FaLinkedin,FaInstagram, FaGithub} from 'react-icons/fa'
-
-
+import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
+import { AwesomeButton, AwesomeButtonShare  } from "react-awesome-button";
+import 'react-awesome-button/dist/styles.css';
 const WellcomePage = () => {
     return (
         <div id='WellcomePage' className='text-gray-300 py-10 px-2'>
@@ -20,7 +20,7 @@ const WellcomePage = () => {
                             delaySpeed={1000}
                         /></span> </h1>
                     <p className='text-black'>I am a passionate Frontend Developer dedicated to creating impactful 1year experiences. <br /> With a keen eye for detail and a drive for innovation, I strive to bring ideas to life <br /> and deliver exceptional results.</p>
-                    <a href="https://drive.google.com/file/d/12foyJoWrISWcLimwI-5BaY5_g9L1bf0e/view?usp=sharing" target='_blank'><button className='btn my-3 bg-[#333333] hover:bg-[#333333]'>Download Resume</button></a>
+                    <a href="https://drive.google.com/file/d/12foyJoWrISWcLimwI-5BaY5_g9L1bf0e/view?usp=sharing" target='_blank'><AwesomeButton type='primary'>Download Resume</AwesomeButton></a>
                     <div>
                         <h2 className='text-2xl text-black font-semibold'>Find With Me</h2>
                         <div className="flex mt-2">
@@ -46,8 +46,9 @@ const WellcomePage = () => {
                                 rel="noopener noreferrer"
                                 className="text-gray-400 hover:text-white transition duration-300 ease-in-out mx-2"
                             >
-                                <FaGithub className='text-3xl '></FaGithub>
+                                 <FaGithub className='text-3xl hover:text-white transition duration-300 ease-in-out'></FaGithub>
                             </a>
+                            {/* <AwesomeButtonShare type="github" href="https://github.com/username">GitHub</AwesomeButtonShare> */}
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import img2 from '../../assets/121638789.jpg'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
+import { AwesomeButton } from 'react-awesome-button';
+
 
 const About = () => {
 
@@ -38,7 +40,7 @@ const About = () => {
                         <p className='text-black'>My knowledge of back-end technologies like Node.js, Express.js, and MongoDB provides me with an added advantage. It showcases my ability to work with both front-end and back-end technologies, potentially making me a valuable asset in full-stack development scenarios.</p>
                         <p className='text-black'>During my career, I have had the opportunity to work on a wide range of projects, from building responsive websites for small businesses. I enjoy the challenge of problem-solving and finding innovative solutions to create seamless user experiences.</p>
 
-                        <button className='btn my-3 bg-[#333333] hover:bg-[#333333]'>Contact Me</button>
+                        <a href="#contact"><AwesomeButton>Contact Me</AwesomeButton></a>
                     </div>
                 </div>
             </div>
