@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../assets/rsz_img_1669996569610[1].jpg'
+import img from '../../assets/317984988_1617183978699942_1732302862455498408_n.jpg'
 import { Typewriter } from 'react-simple-typewriter';
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
 import { AwesomeButton, AwesomeButtonShare  } from "react-awesome-button";
